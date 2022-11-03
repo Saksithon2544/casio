@@ -1,10 +1,5 @@
 [
     {
-        "id": "1",
-        "name": "ทั้งหมด",
-        "url" : "index.html"
-    },
-    {
         "id": "2",
         "name": "ผลิตภัณฑ์ใหม่",
         "url" : "new_product.html"
