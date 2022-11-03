@@ -25,6 +25,18 @@ fetch("./js/products.json").then((products) => products.json()).then(data => {
 	});
 })
 
+fetch("./js/navbar.json").then((url) => url.json()).then(data => {
+	data.map((item) => {
+		$("#navbarArea").append(`
+		 		<ul class="navbar-nav flex-wrap">
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html?category=${item.name}">${item.name}</a>
+                    </li>
+                </ul>
+		`)
+	});
+})
+
 
 
 $(document).ready(function () {

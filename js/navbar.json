@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "name": "ทั้งหมด",
+        "url" : "index.html"
+    },
+    {
+        "id": "2",
+        "name": "ผลิตภัณฑ์ใหม่",
+        "url" : "new_product.html"
+    },
+    {
+        "id": "3",
+        "name": "G-SHOCK",
+        "url" : "gshock.html"
+    },
+    {
+        "id": "4",
+        "name": "BABY-G",
+        "url" : "babyg.html"
+    },
+    {
+        "id": "5",
+        "name": "PRO TREK",
+        "url" : "protrek.html"
+    },
+    {
+        "id": "6",
+        "name": "EDIFICE",
+        "url" : "edifice.html"
+    },
+    {
+        "id": "7",
+        "name": "SHEEN",
+        "url" : "sheen.html"
+    },
+    {
+        "id": "8",
+        "name": "รุ่นดีไซน์สำหรับชาย-หญิง",
+        "url" : "pair.html"
+    },
+    {
+        "id": "9",
+        "name": "CASIO",
+        "url" : "standard.html"
+    },
+    {
+        "id": "10",
+        "name": "นาฬิกา",
+        "url" : "clock.html"
+    }
+]

@@ -65,7 +65,7 @@
 			</section> <!-- header-main .// -->
 
 			<nav id="navbarArea" class="navbar navbar-main navbar-expand pl-0"> </nav> <!-- navbar-main  .// -->
-		
+
 		</div> <!-- container.// -->
 	</header> <!-- section-header.// -->
 
@@ -106,11 +106,11 @@
 		<section class="padding-bottom">
 			<!-- =============== SECTION 1 =============== -->
 			<header class="section-heading mb-4">
-				<h3 class="title-section">EDIFICE</h3>
+				<h3 class="title-section">All Products</h3>
 			</header>
 
-			<div class="row" id="productsArea">
-		
+			<div class="row" id="productsAreaCategory">
+
 				<!-- data-->
 			</div> <!-- End Data -->
 
@@ -129,4 +129,50 @@
 	<!-- ========================= FOOTER END // ========================= -->
 
 </body>
+
 </html>
+
+<script>
+	function getUrlVars() {
+		var vars = [], hash;
+		var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+		for (var i = 0; i < hashes.length; i++) {
+			hash = hashes[i].split('=');
+			vars.push(hash[0]);
+			vars[hash[0]] = hash[1];
+		}
+		return vars;
+	}
+
+	$(document).ready(function () {
+		const category = decodeURI(getUrlVars()["category"])
+		$(".title-section").text(category)
+		fetch("./js/products.json").then((products) => products.json()).then(data => {
+			data.filter(x => x.product_type == category).map((item) => {
+				$("#productsAreaCategory").append(`
+		<div class="col-xl-3 col-lg-3 col-md-4 col-6" >
+				<div class="card card-product-grid">
+					<a href="./detail.html?id=${item.id}" class="img-wrap"> <img src="${item.images}"> </a>
+					<figcaption class="info-wrap">
+						<ul class="rating-stars mb-1">
+							<li style="width:80%" class="stars-active">
+								<img src="images/icons/stars-active.svg" alt="">
+							</li>
+							<li>
+								<img src="images/icons/starts-disable.svg" alt="">
+							</li>
+						</ul>
+						<div>
+							<a href="#" class="text-muted">${item.product_type}</a>
+							<a href="#" class="title">${item.model}</a>
+						</div>
+						<div class="price h5 mt-2">฿ ${item.price}</div>
+					</figcaption>
+				</div>
+			</div>
+		`)
+			});
+		})
+
+	})
+</script>
