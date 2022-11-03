@@ -5,7 +5,8 @@
         "model": "SHE-4539FGM-9A",
         "price": "6,000",
         "images": "../images/items/SHEEN/1.webp",
-        "url": "detailProducts/allProduct/SHE-4539FGM-9A.html"
+        "url": "detailProducts/allProduct/SHE-4539FGM-9A.html",
+        "detailProducts" : ""
     },
     {
         "id": "2",
@@ -13,7 +14,8 @@
         "model": "SHE-4539FM-7A",
         "price": "6,000",
         "images": "../images/items/SHEEN/2.webp",
-        "url": ""
+        "url": "",
+        "detailProducts" : ""
     },
     {
         "id": "3",
@@ -21,6 +23,7 @@
         "model": "SHE-4539FPL-7A",
         "price": "6,000",
         "images": "../images/items/SHEEN/3.webp",
-        "url": ""
+        "url": "",
+        "detailProducts" : ""
     }
 ]
