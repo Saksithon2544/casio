@@ -1,0 +1,23 @@
+[
+    {
+        "product_type": "SHEEN",
+        "model": "SHE-4539FGM-9A",
+        "price": 6000,
+        "images": "../images/items/SHEEN/1.webp",
+        "url": "detailProducts/allProduct/SHE-4539FGM-9A.html"
+    },
+    {
+        "product_type": "SHEEN",
+        "model": "SHE-4539FM-7A",
+        "price": 6000,
+        "images": "../images/items/SHEEN/2.webp",
+        "url": ""
+    },
+    {
+        "product_type": "SHEEN",
+        "model": "SHE-4539FPL-7A",
+        "price": 6000,
+        "images": "../images/items/SHEEN/3.webp",
+        "url": ""
+    }
+]

@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="max-age=604800" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>นาฬิกา | CASIO TH</title>
+
+	<link href="images/icon.png" rel="shortcut icon" type="image/x-icon">
+
+	<!-- jQuery -->
+	<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap4 files-->
+	<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<link href="css/bootstrap.css?v=2.0" rel="stylesheet" type="text/css" />
+
+	<!-- Font awesome 5 -->
+	<link href="fonts/fontawesome/css/all.min.css?v=2.0" type="text/css" rel="stylesheet">
+
+	<!-- custom style -->
+	<link href="css/ui.css?v=2.0" rel="stylesheet" type="text/css" />
+	<link href="css/responsive.css?v=2.0" rel="stylesheet" type="text/css" />
+
+	<!-- custom javascript -->
+	<script src="js/script.js?v=2.0" type="text/javascript"></script>
+
+</head>
+
+<body>
+	<header class="section-header">
+		<div class="container">
+			<section class="header-main border-bottom">
+				<div class="row row-sm">
+					<div class="col-6 col-sm col-md col-lg  flex-grow-0">
+						<a href="index.html" class="brand-wrap">
+							<img class="logo" src="images/icon.png">
+						</a> <!-- brand-wrap.// -->
+					</div>
+					<div class="col-lg-6 col-xl col-md-5 col-sm-12 flex-grow-1">
+						<form action="#" class="search-header">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<select class="custom-select border-left" name="category_name">
+									<option value="">All type</option>
+									<option value="codex">Special</option>
+									<option value="comments">Only best</option>
+									<option value="content">Latest</option>
+								</select>
+							</div>
+						</form> <!-- search-wrap .end// -->
+					</div> <!-- col.// -->
+					<div class="col col-lg col-md flex-grow-0">
+						<button class="btn btn-block btn-primary" type="submit"> Search </button>
+					</div>
+					<div class="col col-lg col-md flex-grow-0">
+						<button class="btn btn-block btn-light" type="submit"> Advanced </button>
+					</div>
+				</div> <!-- row.// -->
+			</section> <!-- header-main .// -->
+
+			<nav class="navbar navbar-main navbar-expand pl-0">
+				<ul class="navbar-nav flex-wrap">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">ทั้งหมด</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="new_product.html">ผลิตภัณฑ์ใหม่</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gshock.html">G-SHOCK</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="babyg.html">BABY-G</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="protrek.html">PRO TREK</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="edifice.html">EDIFICE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sheen.html">SHEEN</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pair.html">รุ่นดีไซน์สำหรับชาย-หญิง</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="standard.html">CASIO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="clock.html">นาฬิกา</a>
+					</li>
+				</ul>
+			</nav> <!-- navbar-main  .// -->
+
+		</div> <!-- container.// -->
+	</header> <!-- section-header.// -->
+
+	<!-- ========================= SECTION MAIN  ========================= -->
+	<section class="section-intro padding-y">
+		<div class="container">
+			<!-- ==============  COMPONENT SLIDER  BOOTSTRAP ============  -->
+			<div id="carousel1_indicator" class="slider-home-banner carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel1_indicator" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel1_indicator" data-slide-to="1"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/banners/banner_gshock.webp" alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img src="images/banners/banner_casio.png" alt="Second slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carousel1_indicator" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carousel1_indicator" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<!-- ============ COMPONENT SLIDER BOOTSTRAP end.// ===========  .// -->
+
+		</div> <!-- container end.// -->
+	</section>
+	<!-- ========================= SECTION MAIN END// ========================= -->
+
+
+	<div class="container">
+		<section class="padding-bottom"> <!-- =============== SECTION 1 =============== -->
+			<header class="section-heading mb-4">
+				<h3 class="title-section">EDIFICE</h3>
+			</header>
+
+			<div class="row" id ="productsArea"> <!-- Data -->
+				<script>
+					const Products = [
+						{
+							product_type: "SHEEN",
+							model: "SHE-4539FGM-9A",
+							price: 6000,
+							images: "images/items/SHEEN/1.webp",
+							url: "",
+						},
+						{
+							product_type: "SHEEN",
+							model: "SHE-4539FM-7A",
+							price: 6000,
+							images: "images/items/SHEEN/2.webp",
+							url: "",
+						},
+						{
+							product_type: "SHEEN",
+							model: "SHE-4539FPL-7A",
+							price: 6000,
+							images: "images/items/SHEEN/3.webp",
+							url: "",
+						},
+					];
+				
+					$(document).ready(function () {
+				
+						Products.map(function(value, index) {
+							$("#productsArea").append(`
+								
+									<div class="col-xl-3 col-lg-3 col-md-4 col-6" >
+										<div class="card card-product-grid">
+											<a href="#" class="img-wrap"> <img src="${value.images}"> </a>
+											<figcaption class="info-wrap">
+												<ul class="rating-stars mb-1">
+													<li style="width:80%" class="stars-active">
+														<img src="images/icons/stars-active.svg" alt="">
+													</li>
+													<li>
+														<img src="images/icons/starts-disable.svg" alt="">
+													</li>
+												</ul>
+												<div>
+													<a href="#" class="text-muted">${value.product_type}</a>
+													<a href="#" class="title">${value.model}</a>
+												</div>
+												<div class="price h5 mt-2">฿ ${value.price}</div>
+											</figcaption>
+										</div>
+									</div>
+								
+							`);
+						});
+						
+					});
+				</script>
+			</div> <!-- End Data -->
+		</section> <!-- =============== SECTION 1 END =============== -->
+	</div> <!-- container end.// -->
+
+	<!-- ========================= FOOTER ========================= -->
+	<footer class="section-footer bg-secondary text-white">
+		<div class="container">
+			<section class="footer-bottom text-center">
+				<p class="text-white"> &copy 2022 KMUTNB, All rights reserved </p>
+			</section>
+		</div><!-- //container -->
+	</footer>
+	<!-- ========================= FOOTER END // ========================= -->
+
+
+</body>
+
+</html>
