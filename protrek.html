@@ -26,7 +26,9 @@
 	<link href="css/responsive.css?v=2.0" rel="stylesheet" type="text/css" />
 
 	<!-- custom javascript -->
-	<script src="js/script.js?v=2.0" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<!-- <script src="script.js"></script> -->
+
 
 </head>
 
@@ -134,69 +136,18 @@
 
 
 	<div class="container">
-		<section class="padding-bottom"> <!-- =============== SECTION 1 =============== -->
+		<section class="padding-bottom">
+			<!-- =============== SECTION 1 =============== -->
 			<header class="section-heading mb-4">
 				<h3 class="title-section">PRO TREK</h3>
 			</header>
 
-			<div class="row" id ="productsArea"> <!-- Data -->
-				<script>
-					const Products = [
-						{
-							product_type: "SHEEN",
-							model: "SHE-4539FGM-9A",
-							price: 6000,
-							images: "images/items/SHEEN/1.webp",
-							url: "",
-						},
-						{
-							product_type: "SHEEN",
-							model: "SHE-4539FM-7A",
-							price: 6000,
-							images: "images/items/SHEEN/2.webp",
-							url: "",
-						},
-						{
-							product_type: "SHEEN",
-							model: "SHE-4539FPL-7A",
-							price: 6000,
-							images: "images/items/SHEEN/3.webp",
-							url: "",
-						},
-					];
-				
-					$(document).ready(function () {
-				
-						Products.map(function(value, index) {
-							$("#productsArea").append(`
-								
-									<div class="col-xl-3 col-lg-3 col-md-4 col-6" >
-										<div class="card card-product-grid">
-											<a href="#" class="img-wrap"> <img src="${value.images}"> </a>
-											<figcaption class="info-wrap">
-												<ul class="rating-stars mb-1">
-													<li style="width:80%" class="stars-active">
-														<img src="images/icons/stars-active.svg" alt="">
-													</li>
-													<li>
-														<img src="images/icons/starts-disable.svg" alt="">
-													</li>
-												</ul>
-												<div>
-													<a href="#" class="text-muted">${value.product_type}</a>
-													<a href="#" class="title">${value.model}</a>
-												</div>
-												<div class="price h5 mt-2">฿ ${value.price}</div>
-											</figcaption>
-										</div>
-									</div>
-								
-							`);
-						});
-						
-					});
-				</script>
+			<div class="row" id="productsArea">
+		
+				<!-- data-->
 			</div> <!-- End Data -->
+
+
 		</section> <!-- =============== SECTION 1 END =============== -->
 	</div> <!-- container end.// -->
 
@@ -210,7 +161,5 @@
 	</footer>
 	<!-- ========================= FOOTER END // ========================= -->
 
-
 </body>
-
 </html>
